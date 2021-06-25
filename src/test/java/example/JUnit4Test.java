@@ -5,8 +5,8 @@ import org.junit.Test;
 
 public class JUnit4Test {
 
-	@Test
-	public void dummyTest() {
-		Assert.assertTrue(true);
-	}
+  @Test
+  public void dummyTest() {
+    Assert.assertTrue(true);
+  }
 }

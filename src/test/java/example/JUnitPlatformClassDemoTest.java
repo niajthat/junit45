@@ -1,22 +1,18 @@
-import static org.junit.jupiter.api.Assertions.fail;
+package example;
 
-import org.junit.jupiter.api.Test;
-// import org.junit.Test;
-import org.junit.platform.runner.JUnitPlatform;
-import org.junit.runner.RunWith;
+import org.junit.Test;
 
-@RunWith(JUnitPlatform.class)
 public class JUnitPlatformClassDemoTest {
 
-    @Test
-    void succeedingTest() {
-        System.out.println("Inside success test");
-    }
+  @Test
+  public void succeedingTest() {
+    System.out.println("Inside success test");
+  }
 
-    @Test
-    void failingTest() {
-        System.out.println("Inside fail test");
-    }
+  @Test
+  public void failingTest() {
+    System.out.println("Inside fail test");
+  }
 
 }
 
